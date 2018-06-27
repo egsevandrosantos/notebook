@@ -1,0 +1,52 @@
+"pt-BR":
+  activerecord:
+    models:
+      contact:
+        one: "Contato"
+        other: "Contatos"
+      address:
+        one: "Endereço"
+        other: "Endereços"
+      phone:
+        one: "Telefone"
+        other: "Telefones"
+      kind:
+        one: "Tipo"
+        other: "Tipos"
+    attributes:
+      contact:
+        name: "Nome"
+        email: "Email"
+        kind: "Tipo de Contato"
+        kind_id: "Tipo de Contato"
+        observation: "Observação"
+      address:
+        street: "Rua"
+        city: "Cidade"
+        state: "Estado"
+        contact_id: "Contato"
+      phone:
+        phone: "Telefone"
+        contact_id: "Contato"
+      kind:
+        description: "Descrição"
+  buttons:
+    new: "Novo"
+    show: "Mostrar"
+    edit: "Editar"
+    destroy: "Apagar"
+    destroy_message: "Tem certeza?"
+    back: "Voltar"
+    home: Início
+    submit: "Enviar"
+    add: "[Adicionar]"
+    rmv: "[Remover]"
+  messages:
+    listining: "Listando"
+    errors: "não permitiram que fosse salvo o registro"
+    created: "Item criado com sucesso!"
+    updated: "Item atualizado com sucesso!"
+    destroyed: "Item excluido com sucesso!"
+  hello:
+    friend: "Olá amigo"
+  hi: "Olá"
