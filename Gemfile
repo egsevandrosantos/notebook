@@ -74,7 +74,9 @@ group :development do
   gem 'spring'
 end
 
-# Use postgresql as the database for Active Record
-gem 'pg', '~> 0.18'
-# Heroku dependence
-gem 'rails_12factor'
+group :production do
+  # Use postgresql as the database for Active Record
+  gem 'pg', '~> 0.18'
+  # Heroku dependence
+  gem 'rails_12factor'
+end
