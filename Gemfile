@@ -75,6 +75,6 @@ group :development do
 end
 
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.18'
 # Heroku dependence
 gem 'rails_12factor'
