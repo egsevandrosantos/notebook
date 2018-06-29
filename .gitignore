@@ -9,3 +9,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore the bundle is installed
+/vendor/bundle/*
